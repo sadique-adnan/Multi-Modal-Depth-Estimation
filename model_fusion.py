@@ -4,13 +4,9 @@ from tensorflow.keras import Model
 from densenet import DenseNet169_multi_channel
 
 
-def create_model(existing='', is_twohundred=False, is_halffeatures=True):
-    
-    print('Loading model (DenseNet)..')
-        # Encoder Layers
+def create_model():
     model = DenseNet169_new(input_shape = (None, None, 4), include_top=False, weights='imagenet')
     print(model.summary())
-
     print('model loaded.')
     
     # Starting point for decoder

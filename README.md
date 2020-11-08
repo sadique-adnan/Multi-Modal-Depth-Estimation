@@ -4,3 +4,6 @@ The model has been trained on a synthetic dataset that was created using Carla s
 We have aslo investigated The impact of Lidar point clouds on depth estimation, when
 fused with RGB images using the same model on KITTI and Nuscenes Dataset.
 The model consists of encoder-decoder architecture inspired by [High Quality Monocular Depth Estimation via Transfer Learning](https://arxiv.org/abs/1812.11941) but trained with different input modality and loss functions.
+
+# Results on KITTI Dataset
+![.](results/kitti_results.png) 

@@ -7,3 +7,6 @@ The model consists of encoder-decoder architecture inspired by [High Quality Mon
 
 # Results on KITTI Dataset
 ![.](results/kitti_results.png) 
+
+# Results on KITTI Dataset when trained with sparse groundtruth
+![.](results/kitti_results_sparse.png) 
